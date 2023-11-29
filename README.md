@@ -57,6 +57,7 @@ To control your MeArm, import the `MeArm` class from the `mearm` module. All ser
 from mearm import MeArm
 
 me_arm = MeArm()
+me_arm.set_center()
 me_arm.height.move_to(100)
 me_arm.reach.move_to(60)
 me_arm.grip.move_to(0)
