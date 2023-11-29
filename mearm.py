@@ -71,28 +71,24 @@ class MeArm:
         self.height.move_to(percentage, self.settings["height"])
         self.settings["height"] = self.height.get_pos()
         self.save_settings()
-        print(self.settings)
         
     def set_reach(self, percentage):
         """ Set MeArm reach """
         self.reach.move_to(percentage, self.settings["reach"])
         self.settings["reach"] = self.reach.get_pos()
         self.save_settings()
-        print(self.settings)
         
     def set_grip(self, percentage):
         """ Set MeArm grip """
         self.grip.move_to(percentage, self.settings["grip"])
         self.settings["grip"] = self.grip.get_pos()
         self.save_settings()
-        print(self.settings)
         
     def set_base(self, percentage):
         """ Set MeArm base """
         self.base.move_to(percentage, self.settings["base"])
         self.settings["base"] = self.base.get_pos()
         self.save_settings()
-        print(self.settings)
         
     def save_settings(self):
         """
