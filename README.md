@@ -58,10 +58,10 @@ from mearm import MeArm
 
 me_arm = MeArm()
 me_arm.set_center()
-me_arm.height.move_to(100)
-me_arm.reach.move_to(60)
-me_arm.grip.move_to(0)
-me_arm.base.move_to(70)
+me_arm.set_height(100)
+me_arm.set_reach(60)
+me_arm.set_grip(0)
+me_arm.set_base(70)
 ```  
 
 The following table provides the percentage to position  
